@@ -1,0 +1,41 @@
+/*Alexis Yazir Hernandez Hipolito 3 D*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+    background-color: rgba(219, 219, 219, 0.9);
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 5px;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid;
+    padding-left: 5px;
+    height: 25px;
+    width: 130px;
+}
+button{
+    height: 30px;
+    width: 30px;
+    font-weight: 800;
+    background-color: #ffdd00;
+    border: solid #ffdd00;
+    border-radius: 5px;
+}
+.Res{
+    display: flex;
+}
